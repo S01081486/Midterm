@@ -71,17 +71,8 @@ namespace ConsoleApp1
                     }
                 }
             }
-            {
-                int n = 8;
-                int i = 10; // initialize
-                do
-                {
-                    Console.Write("*");
-                    i++; // update
-                } while (i < n); // test condition
-            }
         }
     }
 }
 
-// 
+// The output of the code is *. The output of the code with a while statement would not show a *.
